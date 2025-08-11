@@ -1,5 +1,8 @@
-import pymongo  # This ensures pymongo is recognized
+# Put this at the very top of the file
 from __future__ import annotations
+
+# Now, other imports can follow
+import pymongo
 import os
 import json
 from typing import Any, Dict, List, Optional
@@ -9,6 +12,7 @@ import pandas as pd
 import streamlit as st
 from pymongo import MongoClient
 from pymongo.collection import Collection
+
 
 
 # ==============================
