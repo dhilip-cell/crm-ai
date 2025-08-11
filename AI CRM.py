@@ -1,3 +1,4 @@
+import pymongo  # This ensures pymongo is recognized
 from __future__ import annotations
 import os
 import json
@@ -8,6 +9,7 @@ import pandas as pd
 import streamlit as st
 from pymongo import MongoClient
 from pymongo.collection import Collection
+
 
 # ==============================
 # Configuration (edit to suit)
